@@ -1,0 +1,41 @@
+.main-container{
+    background-color: #fff;
+    min-height: 100vh;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.navabar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.navabar img {
+    width: 5%;
+    height: 50px;
+    margin-left: 20px;
+}
+.unorder{
+    display: flex;
+    gap: 3rem;
+}
+
+li{
+    list-style: none;
+}
+
+.login{
+    padding: 15px;
+    border: 1px solid white ;
+    background-color: #ffff00f6;
+    color: #000;
+    border-radius: 15%;
+    margin-right: 4rem;
+    box-shadow: rgba(255, 255, 0, 0.417);
+    font-size: 1rem;
+    font-weight: 600;
+}
